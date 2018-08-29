@@ -1,0 +1,8 @@
+---
+
+# group_vars/client.yml
+wireguard_wg0_peers:
+  someserver:
+    public_key: someserver_public_key
+    endpoint: someserver.example.com:12345
+    allowed_ips: 10.0.0.1/16
