@@ -1,0 +1,8 @@
+---
+
+- name: Insatll wireguard 
+  hosts: wgserver
+  become: True
+
+  roles:
+  - adamruzicka.wireguard
